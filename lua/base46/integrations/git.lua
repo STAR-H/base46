@@ -9,7 +9,7 @@ return {
   },
 
   diffNewFile = {
-    fg = colors.blue,
+    fg = colors.light_grey,
   },
 
   DiffAdd = {
@@ -18,13 +18,13 @@ return {
   },
 
   DiffAdded = {
-    bg = mix(colors.green, colors.black, 90),
-    fg = colors.green,
+    bg = mix(colors.vibrant_green, colors.black, 90),
+    fg = colors.vibrant_green,
   },
 
   DiffChange = {
-    bg = mix(colors.light_grey, colors.black, 90),
-    fg = colors.light_grey,
+    bg = mix(colors.red, colors.black, 90),
+    fg = theme.base04,
   },
 
   DiffChangeDelete = {
@@ -48,8 +48,8 @@ return {
   },
 
   DiffText = {
+    bg = mix(colors.baby_pink, colors.black, 50),
     fg = colors.white,
-    bg = colors.black2,
   },
 
   -- git commits
